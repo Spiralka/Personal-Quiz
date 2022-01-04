@@ -225,12 +225,6 @@
                             <constraint firstItem="E4G-HD-NyI" firstAttribute="centerY" secondItem="Oob-qb-5rw" secondAttribute="centerY" id="nDv-Yc-mzq"/>
                             <constraint firstItem="tuE-Bw-j9v" firstAttribute="leading" secondItem="wmc-Xg-dNe" secondAttribute="leading" constant="20" id="nRv-mt-brb"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="1ud-ZA-rxm"/>
-                                <exclude reference="E4G-HD-NyI"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" title="Вопрос №" id="Red-RK-Z1O"/>
                     <connections>
@@ -276,7 +270,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Результаты" id="het-sp-KVG">
-                        <barButtonItem key="rightBarButtonItem" title="Item" systemItem="done" id="gki-Kj-fWr"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="gki-Kj-fWr"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sak-o8-x1Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
